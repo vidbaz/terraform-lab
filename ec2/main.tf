@@ -6,7 +6,7 @@ variable "vpc_cidr_blocks" {}
 variable "subnet_cidr_blocks" {}
 variable "availability_zone" {}
 variable "env_postfix" {}
-variable "personal_ip" {}
+variable "personal_ip" {} #  my public IP "10.xxx.xxx.xxx/32" you can search it with https://www.whatismyip.com/
 variable "instance_type" {}
 variable "public_key_location" {}
 

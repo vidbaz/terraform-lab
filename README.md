@@ -18,6 +18,7 @@ source .secrets
 
 # Statefile is created in S3
 
+
 ```
 aws s3api create-bucket --bucket terraform-state-vidbaz --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2
 ```
